@@ -96,7 +96,7 @@ while true; do
                         if [ "$installed" = false ]; then
                             echo -e "${CYAN}Installing...${RESET}"
                             rm -f /etc/apt/keyrings/nodesource.gpg 2>/dev/null
-                            yes | bash <(curl -s https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/thame/install.sh)
+                            yes | bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/thame/install.sh)
                         else
                             yes | blueprint -rerun-install
                         fi
@@ -177,7 +177,7 @@ while true; do
             draw_box
             echo ""
             echo -e "${CYAN}Launching Theme...${RESET}"
-            bash <(curl -s https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/thame/thames.sh)
+            bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/thame/thames.sh)
             pause
             ;;
 
@@ -186,7 +186,7 @@ while true; do
             draw_box
             echo ""
             echo -e "${CYAN}Launching Extensions...${RESET}"
-            bash <(curl -s https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/thame/Extension2.sh)
+            bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/thame/Extension2.sh)
             pause
             ;;
 
