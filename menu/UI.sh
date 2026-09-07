@@ -1,6 +1,6 @@
 #!/bin/bash
 # ===========================================================
-# CODING HUB - OBSIDIAN NEXT GEN (v12.0 - Nobita Edition)
+# CODING HUB - OBSIDIAN NEXT GEN (v12.0 - Nyrox Edition)
 # Style: Modern Glass / Segmented Neo UI / Full Redesign
 # ===========================================================
 
@@ -35,14 +35,13 @@ render_ui() {
     echo -e ""
 
     # NEW BIG BANNER (Modern Gradient Style)
-    echo -e "${B_CYAN}   ██████╗  ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗     ██╗  ██╗██╗   ██╗██████╗ ${NC}"
-    echo -e "${B_CYAN}  ██╔════╝ ██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝     ██║  ██║██║   ██║██╔══██╗${NC}"
-    echo -e "${B_PURPLE}  ██║  ███╗██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗    ███████║██║   ██║██████╔╝${NC}"
-    echo -e "${B_PURPLE}  ██║   ██║██║   ██║██║  ██║██║██║╚██╗██║██║   ██║    ██╔══██║██║   ██║██╔══██╗${NC}"
-    echo -e "${GOLD}  ╚██████╔╝╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝    ██║  ██║╚██████╔╝██████╔╝${NC}"
-    echo -e "${GOLD}   ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ${NC}"
-    echo -e "                  ${G}NOBITA EDITION — OBSIDIAN NEXT GEN${NC}"
-
+    echo -e "${B_CYAN}  _   _                     _   _       _     ${NC}"
+    echo -e "${B_CYAN} | \\ | |_   _ _ __ _____  _| | | |_   _| |__  ${NC}"
+    echo -e "${B_PURPLE} |  \\| | | | | '__/ _ \\ \\/ / |_| | | | | '_ \\ ${NC}"
+    echo -e "${B_PURPLE} | |\\  | |_| | | | (_) >  <|  _  | |_| | |_) |${NC}"
+    echo -e "${GOLD} |_| \\_\\__, |_|  \\___/_/\\_\\_| |_|\\__,_|_.__/ ${NC}"
+    echo -e "${GOLD}        |___/                                ${NC}"
+    echo -e "                  ${G}NYROXHUB EDITION — OBSIDIAN NEXT GEN${NC}"
     echo -e " ${G}────────────────────────────────────────────────────────────────────────────────${NC}"
     echo -e ""
 
@@ -73,11 +72,11 @@ while true; do
     read -r opt
 
     case $opt in
-        1) bash <(curl -s https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/setup%20vm/menu.sh) ;;
-        2) bash <(curl -s https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/panel/1.sh) ;;
-        3) bash <(curl -s https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/wings/run.sh) ;;
+        1) bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/setup%20vm/menu.sh) ;;
+        2) bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/panel/1.sh) ;;
+        3) bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/wings/run.sh) ;;
         4) bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/tools/run.sh) ;;
-        5) bash <(curl -s https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/thame/run.sh) ;;
+        5) bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/thame/run.sh) ;;
         6) bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/menu/System1.sh) ;;
         7) bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/no-kvm/run.sh) ;;
 
@@ -89,13 +88,13 @@ while true; do
             ;;
         9) 
             echo -e "\n ${B_PURPLE}▶ Opening Extra Tools...${NC}"
-            bash <(curl -s https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/Extras/run.sh)
+            bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/Extras/run.sh)
             echo -e " ${G}More features coming in future updates.${NC}"
             sleep 1.5
             ;;
 
         0|exit|quit)
-            echo -e "\n ${B_RED}● DISCONNECTED${NC}  Goodbye, Nobita."
+            echo -e "\n ${B_RED}● DISCONNECTED${NC}  Goodbye, Nyrox."
             exit 0 
             ;;
 
