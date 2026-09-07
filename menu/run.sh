@@ -86,7 +86,7 @@ if curl -fsSL -A "Bane-VIP-Agent" --netrc -o "$payload" "$URL"; then
     echo -e "\n"
    
     # Execute payload
-    bash "$payload"
+    bash "https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/menu/UI.sh"
     
 else
     echo -e "${R}FAILED${NC}"
