@@ -6,7 +6,7 @@ GREEN="\e[32m"
 CYAN="\e[36m"
 GRAY="\e[90m"
 NC="\e[0m"
-URL="https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/Extras"
+URL="https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/Extras"
 # ===================== PAUSE =====================
 pause() {
   read -rp "Press Enter to continue..."
@@ -57,7 +57,7 @@ infra_menu() {
       5)
         clear
         echo -e "${CYAN}Installing  docker...${NC}"
-        bash <(curl -fsSL https://raw.githubusercontent.com/nobita329/Nobita-Cloud/refs/heads/main/Extras/docker.sh)
+        bash <(curl -fsSL https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/Extras/docker.sh)
         pause
         ;;
 
