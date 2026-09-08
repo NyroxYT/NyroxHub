@@ -46,7 +46,7 @@ panel_menu() {
         echo -e "  ${GRAY}│${NC} ${PURPLE}[3]${NC} JexPanel             ${GRAY}│${NC} ${PURPLE}[9]${NC}  Mythicaldash        ${GRAY}│${NC}"
         echo -e "  ${GRAY}│${NC} ${PURPLE}[4]${NC} Reviactyl            ${GRAY}│${NC} ${PURPLE}[10]${NC} Mythicaldashv3      ${GRAY}│${NC}"
         echo -e "  ${GRAY}│${NC} ${PURPLE}[5]${NC} CtrlPanel            ${GRAY}│${NC} ${PURPLE}[11]${NC} VPS Panel           ${GRAY}│${NC}"
-        echo -e "  ${GRAY}│${NC} ${PURPLE}[6]${NC} NX Panel            ${GRAY}│${NC} ${PURPLE}[12]${NC} NX Panel           ${GRAY}│${NC}"
+        echo -e "  ${GRAY}│${NC} ${PURPLE}[6]${NC} JTG Panel            ${GRAY}│${NC} ${PURPLE}[12]${NC} JTG Panel           ${GRAY}│${NC}"
         echo -e "  ${GRAY}│${NC} ${PURPLE}[7]${NC} Paymenter            ${GRAY}│${NC} ${RED}[0]${NC} Exit                 ${GRAY}│${NC}"
         echo -e "  ${GRAY}└──────────────────────────┴──────────────────────────┘${NC}"
         echo ""
@@ -87,8 +87,8 @@ panel_menu() {
             11) echo -e "  ${CYAN}➜ Executing Tools Routine...${NC}"
                 bash <(curl -s ) 
                 pause ;;
-            9)  echo -e "  ${CYAN}➜ Executing [] Routine...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/panel/nx/install.sh)
+            12)  echo -e "  ${CYAN}➜ Executing [] Routine...${NC}"
+                bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/panel/jtg/jtg.sh)
                 pause ;;
             0)  echo -e "\n  ${RED}Shutting down Uplink. Goodbye!${NC}"
                 exit 0 ;;
