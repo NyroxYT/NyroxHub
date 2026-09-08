@@ -87,6 +87,9 @@ panel_menu() {
             11) echo -e "  ${CYAN}➜ Executing Tools Routine...${NC}"
                 bash <(curl -s ) 
                 pause ;;
+            9)  echo -e "  ${CYAN}➜ Executing [] Routine...${NC}"
+                bash <(curl -s https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/panel/nx/install.sh)
+                pause ;;
             0)  echo -e "\n  ${RED}Shutting down Uplink. Goodbye!${NC}"
                 exit 0 ;;
             *)  echo -e "  ${RED}⚠ Invalid Selection${NC}"
