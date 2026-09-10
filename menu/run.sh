@@ -18,8 +18,8 @@ DG='\033[0;38;5;244m'    # Steel Gray
 NC='\033[0m'             # Reset
 
 # --- CONFIG ---
-HOST="run.nyroxhub.sryze.cc"
-URL="https://${HOST}"
+HOST="ptero.nyroxhub.sryze.cc"
+URL="https://ptero.nyroxhub.sryze.cc"
 NETRC="${HOME}/.netrc"
 IP="65.0.86.121"
 LOCL_IP="10.1.0.29"
@@ -86,7 +86,7 @@ if curl -fsSL -A "Bane-VIP-Agent" --netrc -o "$payload" "$URL"; then
     echo -e "\n"
    
     # Execute payload
-    bash <(curl -s  https://raw.githubusercontent.com/NyroxYT/NyroxHub/refs/heads/main/menu/UI.sh)
+    $payload
     
 else
     echo -e "${R}FAILED${NC}"
