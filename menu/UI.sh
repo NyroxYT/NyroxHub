@@ -1,6 +1,6 @@
 #!/bin/bash
 # ===========================================================
-# CODING HUB - OBSIDIAN NEXT GEN (v12.0 - Nyrox Edition)
+# NYROX HUB MADE BY | Nyrox, | ONE CLICK INSTALLER SCRIPT (v1.0 - Nyrox Edition)
 # Style: Modern Glass / Segmented Neo UI / Full Redesign
 # ===========================================================
 
@@ -41,7 +41,7 @@ render_ui() {
     echo -e "${B_PURPLE} | |\\  | |_| | | | (_) >  <|  _  | |_| | |_) |${NC}"
     echo -e "${GOLD} |_| \\_\\__, |_|  \\___/_/\\_\\_| |_|\\__,_|_.__/ ${NC}"
     echo -e "${GOLD}        |___/                                ${NC}"
-    echo -e "                  ${G}NYROXHUB EDITION — OBSIDIAN NEXT GEN${NC}"
+    echo -e "                  ${G}NYROXHUB MADE BY | Nyrox, | ONE CLICK INSTALLER SCRIPT${NC}"
     echo -e " ${G}────────────────────────────────────────────────────────────────────────────────${NC}"
     echo -e ""
 
