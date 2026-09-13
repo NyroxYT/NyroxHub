@@ -1,10 +1,10 @@
-# ⚙️ Pterodactyl Auto Installer
+# ⚙️ Pterodactyl & Nxdactyl Auto Installer
 
 One-command setup for Panel + Wings 🚀
 
 ## 🚀 Install
 ```bash
-bash <(curl -s https://ptero.nobitahost.in)
+bash <(curl -s https://ptero.nyroxhub.sryze.cc))
 ```
 
 ## 📦 Includes
@@ -14,6 +14,8 @@ bash <(curl -s https://ptero.nobitahost.in)
 - NGINX Web Server
 - MySQL / MariaDB
 - Redis Server
+- SQLite
+- Nxdactyl
 
 ## 🧱 Requirements
 - Ubuntu 20.04+
